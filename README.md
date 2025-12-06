@@ -57,9 +57,4 @@ with $Z \sim \mathcal{N}(0,1)$.
 
 ---
 
-## 📂 Usage
 
-Example simulation command:
-
-```bash
-python main.py
