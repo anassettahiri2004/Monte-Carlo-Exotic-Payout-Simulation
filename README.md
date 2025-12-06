@@ -15,18 +15,18 @@ dS_t = r S_t\, dt + \sigma S_t\, dW_t
 $$
 
 where:  
-- $ S_t $: stock price at time $ t $  
-- $ r $: risk-free interest rate  
-- $ \sigma $: asset volatility  
-- $ W_t $: standard Brownian motion  
+- $$ S_t $$: stock price at time $ t $  
+- $$ r $$: risk-free interest rate  
+- $$ \sigma $$: asset volatility  
+- $$ W_t $$: standard Brownian motion  
 
 The closed-form solution used for simulation is:
 
 $$
-S_t = S_0 \exp\!\left( \left( r - \frac{1}{2}\sigma^2 \right)t + \sigma \sqrt{t}\, Z \right)
+S_t = S_0 \exp\\left( \left( r - \frac{1}{2}\sigma^2 \right)t + \sigma \sqrt{t}\, Z \right)
 $$
 
-with \( Z \sim \mathcal{N}(0,1) \).
+with $$ Z \sim \mathcal{N}(0,1) $$.
 
 ---
 
